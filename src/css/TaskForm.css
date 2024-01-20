@@ -1,0 +1,65 @@
+/*Estilos para el icono del lapiz*/
+
+.icon__pencil{
+    width: 30px
+}
+
+/*Estilo del campo*/
+form{
+    width: 85%;
+    display: flex;
+    margin-top: -20px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+/*Estilos para el input - caja donde se escribe la tarea*/
+
+.task__input{
+    padding: 0.5rem;
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: 10px solid #f9f9f9;
+    border-radius: 10px;
+}
+
+/*Estilos para el botón de agregar*/
+
+.task__button{
+   all: unset;
+}
+
+.icon__add{
+    color: #82b265;
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.icon__add:active{
+    color: #91ffaf;
+    transition: 0.3s ease;
+}
+
+
+/*Estilos responsivos a la hora que la pantalla sea mayor a 768px*/
+
+@media screen and (min-width: 768px){
+    .icon__add:hover{
+        color: #91ffaf;
+        transform: scale(1.2);
+    }
+}
+
+
+

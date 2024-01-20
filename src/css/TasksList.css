@@ -1,0 +1,11 @@
+/*Estilos para el contendor de la lista de tareas*/
+
+.tasks__list__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow:auto;
+}
